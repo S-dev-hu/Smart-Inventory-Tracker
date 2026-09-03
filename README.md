@@ -61,3 +61,43 @@ Add dashboard screenshot here.
 
 Sibusiso Maseko
 Johannesburg, South Africa
+User_Guide.md
+# User Guide
+
+## Adding Inventory
+
+1. Open Inventory Master
+2. Add a new item
+3. Enter quantity and supplier details
+
+## Recording Stock In
+
+Open Stock In sheet and capture incoming stock.
+
+## Recording Stock Out
+
+Open Stock Out sheet and capture issued stock.
+
+## Dashboard
+
+Dashboard updates automatically.
+Technical_Overview.md
+# Technical Overview
+
+The Smart Inventory Tracker uses Excel formulas to automate inventory calculations.
+
+## AI Features
+
+- Low stock detection
+- Reorder recommendations
+- Demand forecasting
+
+## Formula Examples
+
+```excel
+=IF(D2<=E2,"REORDER REQUIRED","STOCK OK")
+```
+
+```excel
+=FORECAST.LINEAR(...)
+```
