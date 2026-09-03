@@ -16,3 +16,48 @@ Smart-Inventory-Tracker
 | ---- | ------- | ------- | -------------- | ----------- |
 | Date | Item ID | Product | Quantity Removed | Issued To |
 | ---- | ------- | ------- | ---------------- | --------- |
+Total Products
+Total Stock Value
+Low Stock Items
+Charts
+Inventory Trend
+=IF(D2<=E2,"REORDER REQUIRED","STOCK OK")
+=IF(D2<E2,"Order "&(E2*2-D2)&" Units","No Action")
+Inventory_Tracker.xlsx
+Item ID,Product Name,Category,Quantity,Min Stock,Unit Cost,Supplier
+IT001,Laptop,Hardware,25,10,12000,Dell
+IT002,Mouse,Accessories,100,30,150,Logitech
+IT003,Keyboard,Accessories,80,20,350,Logitech
+IT004,Monitor,Hardware,15,10,2500,Samsung
+Sample_Data.csv
+README.md
+# Smart Inventory Tracker
+
+## Overview
+
+An AI-powered inventory management spreadsheet designed to help organizations track stock levels, monitor inventory movements, forecast demand, and generate intelligent reorder recommendations.
+
+## Features
+
+- Inventory Tracking
+- Stock In / Stock Out Management
+- Dashboard Reporting
+- Low Stock Alerts
+- AI Reorder Recommendations
+- Demand Forecasting
+
+## Technologies Used
+
+- Microsoft Excel
+- CSV
+- Data Analysis
+- AI-assisted Inventory Management
+
+## Screenshots
+
+Add dashboard screenshot here.
+
+## Author
+
+Sibusiso Maseko
+Johannesburg, South Africa
