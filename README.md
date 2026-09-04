@@ -1,4 +1,3 @@
-# Smart-Inventory-Tracker
 # Smart Inventory Tracker
 
 An AI-assisted inventory management solution built with Microsoft Excel that helps organizations monitor stock levels, track inventory movements, identify low-stock items, and generate intelligent reorder recommendations.
